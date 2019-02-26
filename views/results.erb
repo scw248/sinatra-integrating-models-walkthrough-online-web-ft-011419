@@ -9,6 +9,6 @@
 
 <h2>Most Common Letter: <% @analyzed_text.most_used_letter.each do |key, val| %> 
                         <%= key %>
-                        
-    
-used <%= @analyzed_text.most_used_letter.values %> times</h2>
+                        used 
+                        <%= val %> 
+                        times</h2>
